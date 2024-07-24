@@ -14,6 +14,11 @@ UserWindow::UserWindow(QWidget *parent) :
     // 设置初始页面
     ui->stackedWidget->setCurrentWidget(ui->booksPage);
 
+    // 设置页面背景颜色
+    ui->bookTableView->setStyleSheet("QTableView { background-color: rgb(225, 225, 225); }");
+    ui->recordTableView->setStyleSheet("QTableView { background-color: rgb(225, 225, 225); }");
+    ui->workTableView->setStyleSheet("QTableView { background-color: rgb(225, 225, 225); }");
+
     // 隐藏表格左侧的序号
     setupTableView(ui->bookTableView);
     setupTableView(ui->workTableView);

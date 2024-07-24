@@ -319,7 +319,7 @@ void AdminWindow::addBook() // 增加图书
     if (!ok) return;
 
     QSqlQuery query;
-    query.prepare("INSERT INTO `图书表` (`bookid`, `name`, `auther`, `pub`, `status`, `num`, `price`, `type1`, `type2`, `type3`, `code`, `pic`, `floor`) "
+    query.prepare("INSERT INTO `图书表` (`bookid`, `name`, `author`, `pub`, `status`, `num`, `price`, `type1`, `type2`, `type3`, `code`, `pic`, `floor`) "
                   "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     query.addBindValue(bookId);
     query.addBindValue(name);
@@ -406,7 +406,7 @@ void AdminWindow::modifyBook() // 修改图书信息
     if (!ok) return;
 
     QSqlQuery query;
-    query.prepare("UPDATE `图书表` SET `name` = ?, `auther` = ?, `pub` = ?, `status` = ?, `num` = ?, `price` = ?, `type1` = ?, `type2` = ?, `type3` = ?, `code` = ?, `pic` = ?, `floor` = ? WHERE `bookid` = ?");
+    query.prepare("UPDATE `图书表` SET `name` = ?, `author` = ?, `pub` = ?, `status` = ?, `num` = ?, `price` = ?, `type1` = ?, `type2` = ?, `type3` = ?, `code` = ?, `pic` = ?, `floor` = ? WHERE `bookid` = ?");
     query.addBindValue(name);
     query.addBindValue(author);
     query.addBindValue(pub);
