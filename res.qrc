@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/1984.jpg</file>
+        <file>res/bainiangudu.jpg</file>
+        <file>res/beiying.jpg</file>
+        <file>res/biancheng.jpg</file>
+        <file>res/chaguan.jpg</file>
+        <file>res/dongwunongchang.jpg</file>
+        <file>res/hongloumeng.jpg</file>
+        <file>res/huoluanshiqideaiqing.jpg</file>
+        <file>res/jia.jpg</file>
+        <file>res/leiyu.jpg</file>
+        <file>res/luotuoxiangzi.jpg</file>
+        <file>res/nahan.jpg</file>
+        <file>res/panghuang.jpg</file>
+        <file>res/sanguoyanyi.jpg</file>
+        <file>res/shuihuzhuan.jpg</file>
+        <file>res/weicheng.jpg</file>
+        <file>res/xiaowangzi.jpg</file>
+        <file>res/xiyouji.jpg</file>
+        <file>res/zhaohuaxishi.jpg</file>
+        <file>res/zhuifengzhengderen.jpg</file>
+        <file>res/tool_button.png</file>
+        <file>res/login_back.jpg</file>
+        <file>res/lib_icon.jpg</file>
+        <file>res/libicon.png</file>
+        <file>res/admin.png</file>
+        <file>res/user.png</file>
+        <file>res/admin_back.jpg</file>
+        <file>res/user_back.jpg</file>
+        <file>res/logout.png</file>
+        <file>res/relogin.png</file>
+    </qresource>
+</RCC>
